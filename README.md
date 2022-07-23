@@ -142,7 +142,7 @@ There are a lot of things still to be done and to be made better. If you have an
 
 ## Feature
 
-* 本仓库是基于 [https://github.com/gomfunkel/node-exif] 就行修改
+* 本仓库是基于 [https://github.com/gomfunkel/node-exif] 进行修改
 * 修复了解析某些图片 产生invalid array length Allocation failed - JavaScript heap out of memory 的问题
 
 ## License
