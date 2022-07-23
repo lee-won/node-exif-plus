@@ -1,6 +1,6 @@
 # node-exif-plus
 
-With _node-exif_ you can extract Exif metadata from images (JPEG). Exif is a format used, for example, by digital cameras and scanners to save additional information about an image in the image file. This information can be the camera model, resolution, where the image was taken (GPS) or when it was taken.
+With _node-exif-plus_ you can extract Exif metadata from images (JPEG). Exif is a format used, for example, by digital cameras and scanners to save additional information about an image in the image file. This information can be the camera model, resolution, where the image was taken (GPS) or when it was taken.
 
 ## node-exif CLI
 
@@ -17,19 +17,19 @@ Rodrigo Espinosa proposes the npm package [exif-cli](https://github.com/RodrigoE
 
 Installing using npm (node package manager):
 
-    npm install exif
+    npm install node-exif
 
 If you don't have npm installed or don't want to use it:
 
     cd ~/.node_libraries
-    git clone git://github.com/gomfunkel/node-exif.git exif
+    git clone git:https://github.com/lee-won/node-exif-plus node-exif
 
 ## Usage
 
 Easy. Just require _node-exif_ and throw an image at it. If _node-exif_ is able to extract data from the image it does so and returns an object with all the information found, if an error occurs you will receive an error message. To prove that it really is easy please see the following example.
 
 ```javascript
-var ExifImage = require('exif').ExifImage;
+var ExifImage = require('node-exif').ExifImage;
 
 try {
     new ExifImage({ image : 'myImage.jpg' }, function (error, exifData) {
@@ -142,9 +142,9 @@ There are a lot of things still to be done and to be made better. If you have an
 
 ## Feature
 
-* 本仓库是基于 [https://github.com/gomfunkel/node-exif] 进行修改
+* 本仓库是基于 [https://github.com/gomfunkel/node-exif](https://github.com/gomfunkel/node-exif) 进行修改
 * 修复了解析某些图片 产生invalid array length Allocation failed - JavaScript heap out of memory 的问题
 
 ## License
 
-_node-exif_ is licensed under the MIT License. (See LICENSE)
+_node-exif-plus_ is licensed under the MIT License. (See LICENSE)

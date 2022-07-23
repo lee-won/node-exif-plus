@@ -2,12 +2,12 @@
   "name" : "node-exif",
   "version" : "1.0.0",
   "description" : "A node.js library to extract Exif metadata from images.",
-  "author" : [],
+  "author" : "leewon <751765309@qq.com>",
   "keywords" : ["exif", "image", "jpeg", "jpg", "makernotes", "gps"],
   "main" : "./lib/exif",
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/gomfunkel/node-exif.git"
+    "url" : "https://github.com/lee-won/node-exif-plus.git"
   },
   "dependencies": {
     "debug": "^2.2"
