@@ -1,6 +1,6 @@
-# node-exif-plus
+# node-exif
 
-With _node-exif-plus_ you can extract Exif metadata from images (JPEG). Exif is a format used, for example, by digital cameras and scanners to save additional information about an image in the image file. This information can be the camera model, resolution, where the image was taken (GPS) or when it was taken.
+With _node-exif_ you can extract Exif metadata from images (JPEG). Exif is a format used, for example, by digital cameras and scanners to save additional information about an image in the image file. This information can be the camera model, resolution, where the image was taken (GPS) or when it was taken.
 
 ## node-exif CLI
 
@@ -147,4 +147,4 @@ There are a lot of things still to be done and to be made better. If you have an
 
 ## License
 
-_node-exif-plus_ is licensed under the MIT License. (See LICENSE)
+_node-exif_ is licensed under the MIT License. (See LICENSE)
