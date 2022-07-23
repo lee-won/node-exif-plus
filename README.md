@@ -1,4 +1,4 @@
-# node-exif
+# node-exif-plus
 
 With _node-exif_ you can extract Exif metadata from images (JPEG). Exif is a format used, for example, by digital cameras and scanners to save additional information about an image in the image file. This information can be the camera model, resolution, where the image was taken (GPS) or when it was taken.
 
@@ -142,8 +142,8 @@ There are a lot of things still to be done and to be made better. If you have an
 
 ## Feature
 
-1.本仓库是基于 [https://github.com/gomfunkel/node-exif] 就行修改
-2.修复了解析某些图片 产生invalid array length Allocation failed - JavaScript heap out of memory 的问题
+* 本仓库是基于 [https://github.com/gomfunkel/node-exif] 就行修改
+* 修复了解析某些图片 产生invalid array length Allocation failed - JavaScript heap out of memory 的问题
 
 ## License
 
